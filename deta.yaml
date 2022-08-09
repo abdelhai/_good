@@ -1,10 +1,9 @@
 v: 0
 micros:
   - name: main
-      src: .
-      commands:
-        - go get
-        - go build main.go
-      artefact: main
-      run: ./main
-    
+    src: "."
+    commands:
+      - go get
+      - go build main.go
+    artefact: main
+    run: ./main
