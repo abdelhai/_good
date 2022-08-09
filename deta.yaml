@@ -4,6 +4,6 @@ micros:
     engine: custom
     src: "."
     commands:
-      - go build main.go
-    artefact: main
-    run: ./main
+      - gem install sinatra
+    # artefact: main
+    run: ruby app.rb
