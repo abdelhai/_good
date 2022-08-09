@@ -4,6 +4,6 @@ micros:
     engine: custom
     src: "."
     commands:
-      - gem install sinatra
+      - pip install notebook
     # artefact: main
-    run: ruby app.rb
+    run: jupyter notebook --notebook-dir /tmp --ip=0.0.0.0 --port=8080
