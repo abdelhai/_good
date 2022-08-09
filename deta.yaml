@@ -3,7 +3,6 @@ micros:
   - name: main
     src: "."
     commands:
-      - go get
       - go build main.go
     artefact: main
     run: ./main
