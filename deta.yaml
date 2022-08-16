@@ -1,9 +1,9 @@
 v: 0
 micros:
   - name: main
-    engine: custom
-    src: "."
+    engine: static
+    src: gem
+    approot: dist
     commands:
-      - go build main.go
-    artefact: main
-    run: ./main
+      - npm run build
+
