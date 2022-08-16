@@ -1,9 +1,5 @@
 v: 0
 micros:
-  - name: main
-    engine: custom
-    src: "."
-    commands:
-      - go build main.go
-    artefact: main
-    run: ./main
+  - name: site
+    engine: static
+    approot: .
